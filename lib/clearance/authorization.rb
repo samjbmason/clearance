@@ -74,7 +74,7 @@ module Clearance
     end
 
     def url_after_denied_access_when_signed_out
-      sign_in_url
+      log_in_url
     end
   end
 end
